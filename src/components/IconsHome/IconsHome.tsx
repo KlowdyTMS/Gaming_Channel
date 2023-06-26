@@ -1,20 +1,19 @@
 import {
-  AiOutlineInstagram,
-  AiOutlineTwitter,
-  AiOutlineYoutube,
+  YouTube,
+  FacebookOutlined,
+  Twitter,
+  Instagram,
   // @ts-ignore
-} from "react-icons/Ai";
-// @ts-ignore
-import { BiLogoFacebook } from "react-icons/Bi";
+} from "@mui/icons-material";
 import { IconsContainer } from "./IconsHome-style";
 
 export function IconsHome() {
   return (
     <IconsContainer>
-      <AiOutlineInstagram />
-      <BiLogoFacebook />
-      <AiOutlineTwitter />
-      <AiOutlineYoutube />
+      <Instagram />
+      <FacebookOutlined />
+      <Twitter />
+      <YouTube />
     </IconsContainer>
   );
 }
