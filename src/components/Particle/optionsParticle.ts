@@ -47,7 +47,7 @@ export const optionParticle: any = {
       },
       onHover: {
         enable: true,
-        mode: "none",
+        mode: "attract",
         parallax: {
           enable: false,
           force: 60,
@@ -61,10 +61,10 @@ export const optionParticle: any = {
     },
     modes: {
       attract: {
-        distance: 200,
+        distance: 70,
         duration: 0.4,
         easing: "ease-out-quad",
-        factor: 1,
+        factor: 3,
         maxSpeed: 50,
         speed: 1,
       },
@@ -108,7 +108,7 @@ export const optionParticle: any = {
         quantity: 2,
       },
       repulse: {
-        distance: 200,
+        distance: 70,
         duration: 0.4,
         factor: 100,
         speed: 1,
@@ -192,7 +192,7 @@ export const optionParticle: any = {
           value: 1,
         },
       },
-      enable: false,
+      enable: true,
       mode: "bounce",
       overlap: {
         enable: true,
